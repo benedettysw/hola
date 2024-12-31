@@ -1,0 +1,59 @@
+.contenedor-todo{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(176, 23, 200);
+    justify-content: space-around;
+    align-items: center;
+    padding: .6rem;
+    margin-bottom: 2rem;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 3rem;
+    color: white;
+
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* AQUI TERMINA EL HEADER */
+
+
+#menu , label{
+    display: none;
+}
+
+.logo{
+   gap: .4rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.logo>img{
+    height: 30px;
+    border-radius: 100px;
+    
+}

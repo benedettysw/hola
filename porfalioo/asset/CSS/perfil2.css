@@ -1,0 +1,66 @@
+
+
+.sobreMi{
+    border-top: 3px solid;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem;
+
+
+}
+
+
+.quien-soy{
+    line-height: 2rem;
+}
+
+
+
+
+
+.hobbits{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.interese{
+
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 3px solid ;
+    padding: 1rem;
+}
+
+
+.hijos{
+    height: 100px;
+    width: 150px;
+    flex-grow: 1;
+    border: 3px solid white;
+    overflow: hidden;
+    text-align: center;
+    /* perspective: 1000px; */
+}
+
+.hijos > img{
+    transition: transform 0.3s ease-in-out;
+    transform: translate(0);
+   
+}
+
+.hijos:hover img{
+    transform: scale(1.2) ;
+}
+
+
+.infor{
+    line-height: 2rem;
+    padding: 1rem;
+}
